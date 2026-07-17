@@ -1,0 +1,1899 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HERAULTPHONE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="/imgheraultphone/logo/logoherault.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/magic-ui@latest/dist/magic-ui.min.css"
+    />
+    <script src="https://unpkg.com/magic-ui@latest/dist/magic-ui.min.js"></script>
+  </head>
+
+  <body class="font-['DM_Sans'] bg-black text-white">
+    <header class="w-full bg-black border-b border-gray-800 fixed top-0 z-40">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between h-16">
+          <a href="./index.html" class="flex items-center gap-3">
+            <img
+              src="./imgheraultphone/logo/logoherault.jpg"
+              alt="Logo Herault Phone"
+              class="h-9 w-9 object-contain"
+            />
+            <span class="text-lg font-semibold tracking-wide text-white">
+              HERAULTPHONE
+            </span>
+          </a>
+
+          <nav
+            class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300"
+          >
+            <a href="./index.html" class="hover:text-white transition"
+              >Accueil</a
+            >
+            <a href="./pages/services.html" class="hover:text-white transition"
+              >Services</a
+            >
+            <a href="./pages/apropos.html" class="hover:text-white transition"
+              >À propos</a
+            >
+
+            <div class="flex items-center gap-4">
+              <a
+                href="./pages/contact.html"
+                class="bg-white text-black px-4 py-2 rounded-md font-semibold hover:bg-gray-200 transition"
+              >
+                Contacter
+              </a>
+
+              <a
+                href="https://www.instagram.com/heraultphone/"
+                class="hover:opacity-70 transition"
+                aria-label="Instagram"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.679 3.5 4 5.179 4 7.25v8.5C4 18.321 5.679 20 7.75 20h8.5C18.321 20 20 18.321 20 16.25v-8.5C20 5.679 18.321 3.5 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@heraultphone?_t=ZN-8uZT7bnszjz&_r=1"
+                class="hover:opacity-70 transition"
+                aria-label="TikTok"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 8.1c-1.5 0-2.9-.5-4-1.4V16c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6v3.1c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V2h3c.3 2.2 2.1 3.9 4.3 4.1v2z"
+                  />
+                </svg>
+              </a>
+              <a
+                href="https://wa.me/33642203142"
+                aria-label="WhatsApp"
+                class="hover:opacity-70 transition"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20.52 3.48A11.88 11.88 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.12.554 4.098 1.608 5.837L0 24l6.347-1.616A11.964 11.964 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.204-1.254-6.215-3.48-8.52zm-8.52 18.52c-2.08 0-4.036-.624-5.64-1.69l-.404-.24-3.77.957.99-3.73-.262-.41A10.935 10.935 0 0 1 1 12c0-6.075 4.925-11 11-11s11 4.925 11 11-4.925 11-11 11zm5.36-7.69c-.148-.247-.543-.395-1.14-.693-.596-.297-1.44-.73-1.666-.815-.222-.086-.384-.127-.544.127-.157.252-.607.815-.744.983-.137.167-.275.188-.51.063-.235-.125-1.004-.368-1.914-1.178-.71-.63-1.188-1.407-1.328-1.642-.137-.235-.014-.362.1-.479.102-.104.226-.27.34-.406.113-.137.15-.23.225-.383.075-.153.037-.285.018-.403-.02-.118-.558-1.345-.764-1.84-.205-.495-.397-.428-.544-.428h-.438c-.145 0-.353.056-.508.273-.154.217-.59.707-.59 1.723 0 1.016.88 2.245.995 2.396.116.152 1.79 2.436 4.326 3.618.608.263 1.08.415 1.445.532.607.187 1.162.15 1.605.088.492-.07 1.543-.594 1.762-1.153.22-.559.22-1.043.158-1.153z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </nav>
+          <button
+            id="open-menu"
+            class="md:hidden text-white transition-transform duration-300 hover:scale-110"
+          >
+            <svg
+              class="h-7 w-7"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!--MENU MOBILE-->
+    <div
+      id="mobile-menu"
+      class="fixed inset-0 bg-black z-50 flex flex-col items-center justify-center gap-8 text-lg font-semibold text-white opacity-0 pointer-events-none transition-all duration-500 ease-out translate-y-6 scale-95"
+    >
+      <a href="./index.html" class="hover:opacity-70 transition">Accueil</a>
+      <a href="./pages/services.html" class="hover:opacity-70 transition"
+        >Services</a
+      >
+      <a href="./pages/apropos.html" class="hover:opacity-70 transition"
+        >À propos</a
+      >
+
+      <a
+        href="./pages/contact.html"
+        class="bg-white text-black px-6 py-3 rounded-md font-semibold"
+      >
+        Contacter
+      </a>
+
+      <div class="flex items-center gap-6 pt-6">
+        <a
+          href="https://www.instagram.com/heraultphone/"
+          class="hover:opacity-70 transition"
+          aria-label="Instagram"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 fill-current"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.679 3.5 4 5.179 4 7.25v8.5C4 18.321 5.679 20 7.75 20h8.5C18.321 20 20 18.321 20 16.25v-8.5C20 5.679 18.321 3.5 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"
+            />
+          </svg>
+        </a>
+
+        <a
+          href="https://www.tiktok.com/@heraultphone?_t=ZN-8uZT7bnszjz&_r=1"
+          class="hover:opacity-70 transition"
+        >
+          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <path
+              d="M21 8.1c-1.5 0-2.9-.5-4-1.4V16c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6v3.1c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V2h3c.3 2.2 2.1 3.9 4.3 4.1v2z"
+            />
+          </svg>
+        </a>
+
+        <a
+          href="https://wa.me/33642203142"
+          aria-label="WhatsApp"
+          class="hover:opacity-70 transition"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 fill-current"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20.52 3.48A11.88 11.88 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.12.554 4.098 1.608 5.837L0 24l6.347-1.616A11.964 11.964 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.204-1.254-6.215-3.48-8.52zm-8.52 18.52c-2.08 0-4.036-.624-5.64-1.69l-.404-.24-3.77.957.99-3.73-.262-.41A10.935 10.935 0 0 1 1 12c0-6.075 4.925-11 11-11s11 4.925 11 11-4.925 11-11 11zm5.36-7.69c-.148-.247-.543-.395-1.14-.693-.596-.297-1.44-.73-1.666-.815-.222-.086-.384-.127-.544.127-.157.252-.607.815-.744.983-.137.167-.275.188-.51.063-.235-.125-1.004-.368-1.914-1.178-.71-.63-1.188-1.407-1.328-1.642-.137-.235-.014-.362.1-.479.102-.104.226-.27.34-.406.113-.137.15-.23.225-.383.075-.153.037-.285.018-.403-.02-.118-.558-1.345-.764-1.84-.205-.495-.397-.428-.544-.428h-.438c-.145 0-.353.056-.508.273-.154.217-.59.707-.59 1.723 0 1.016.88 2.245.995 2.396.116.152 1.79 2.436 4.326 3.618.608.263 1.08.415 1.445.532.607.187 1.162.15 1.605.088.492-.07 1.543-.594 1.762-1.153.22-.559.22-1.043.158-1.153z"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <button id="close-menu" class="absolute top-6 right-6">
+        <svg
+          class="h-8 w-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <script>
+      const openMenu = document.getElementById("open-menu");
+      const closeMenu = document.getElementById("close-menu");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      openMenu.addEventListener("click", () => {
+        mobileMenu.classList.remove(
+          "opacity-0",
+          "pointer-events-none",
+          "translate-y-6",
+          "scale-95",
+        );
+        mobileMenu.classList.add(
+          "opacity-100",
+          "pointer-events-auto",
+          "translate-y-0",
+          "scale-100",
+        );
+        document.body.style.overflow = "hidden";
+      });
+
+      closeMenu.addEventListener("click", () => {
+        mobileMenu.classList.add(
+          "opacity-0",
+          "pointer-events-none",
+          "translate-y-6",
+          "scale-95",
+        );
+        mobileMenu.classList.remove(
+          "opacity-100",
+          "pointer-events-auto",
+          "translate-y-0",
+          "scale-100",
+        );
+        document.body.style.overflow = "";
+      });
+    </script>
+
+    <!-- HERO -->
+    <section class="relative h-[90vh] w-full overflow-hidden">
+      <div class="absolute inset-0">
+        <img
+          src="./imgheraultphone/boutiqueintérieur/accessoireboutique.jpg"
+          class="hero-slide absolute inset-0 h-full w-full object-cover opacity-100 transition-opacity duration-1000"
+        />
+        <img
+          src="./imgheraultphone/appareilréparé/imgappareil13.jpg"
+          class="hero-slide absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-1000"
+        />
+        <img
+          src="./imgheraultphone/boutiqueintérieur/heraultphoneinterieur1.jpg"
+          class="hero-slide absolute inset-0 h-full w-full object-cover opacity-0 transition-opacity duration-1000"
+        />
+
+        <div class="absolute inset-0 bg-black/60"></div>
+      </div>
+
+      <div class="relative z-10 flex h-full items-center">
+        <div
+          class="max-w-3xl mx-auto sm:mx-0 sm:ml-16 md:ml-24 lg:ml-32 text-left px-6 sm:px-0 hero-content"
+        >
+          <h1
+            class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6"
+          >
+            Spécialistes de la Réparation de Smartphones et Tablettes depuis
+            2012
+          </h1>
+
+          <p class="text-gray-300 text-base sm:text-lg md:text-lg mb-10">
+            Notre Objectif est de Redonner une Seconde Vie à Chaque Appareil Dès
+            que Possible, Tout en Garantissant Qualité et Compétitivité.
+          </p>
+
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a
+              href="./pages/contact.html"
+              class="bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-200 transition"
+            >
+              Contacter
+            </a>
+
+            <a
+              href="mailto:heraultphone@hotmail.com"
+              class="border border-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-black transition"
+            >
+              Envoyer un mail
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const slides = document.querySelectorAll(".hero-slide");
+        let index = 0;
+        const changeSlide = () => {
+          slides.forEach((slide) =>
+            slide.classList.replace("opacity-100", "opacity-0"),
+          );
+          slides[index].classList.replace("opacity-0", "opacity-100");
+        };
+        setInterval(() => {
+          index = (index + 1) % slides.length;
+          changeSlide();
+        }, 5000);
+
+        const heroContent = document.querySelector(".hero-content");
+        if (!heroContent) return;
+
+        heroContent.classList.add("opacity-0", "translate-y-10");
+
+        heroContent.getBoundingClientRect();
+
+        heroContent.classList.add(
+          "transition-all",
+          "duration-1000",
+          "ease-out",
+        );
+
+        setTimeout(() => {
+          heroContent.classList.remove("opacity-0", "translate-y-10");
+          heroContent.classList.add("opacity-100", "translate-y-0");
+        }, 100);
+      });
+    </script>
+
+    <section class="bg-black py-24 overflow-hidden">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <div
+          class="relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-2xl opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <img
+            src="../imgheraultphone/appareilréparé/imgappareil1_.jpg"
+            alt="Intervention 1"
+            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-100 slider-image"
+          />
+          <img
+            src="../imgheraultphone/appareilréparé/imgappareil11.jpg"
+            alt="Intervention 2"
+            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0 slider-image"
+          />
+          <img
+            src="../imgheraultphone/appareilréparé/imgappareil15.jpg"
+            alt="Intervention 3"
+            class="absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 opacity-0 slider-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+
+        const slides = document.querySelectorAll(".slider-image");
+        let current = 0;
+
+        setInterval(() => {
+          slides[current].classList.remove("opacity-100");
+          slides[current].classList.add("opacity-0");
+
+          current = (current + 1) % slides.length;
+
+          slides[current].classList.remove("opacity-0");
+          slides[current].classList.add("opacity-100");
+        }, 4000);
+      });
+    </script>
+
+    <!--SECTION RÉPARATION SMARTPHONES-->
+    <section class="bg-black py-24 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6">
+        <div
+          class="relative rounded-2xl bg-gray-100 text-gray-900 px-8 py-16 md:px-16 flex flex-col md:flex-row items-center gap-16 shadow-xl opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div class="md:w-1/2 flex justify-center md:justify-end">
+            <img
+              src="./imgheraultphone/appareilréparé/imgappareil13.jpg"
+              alt="Réparation smartphones et tablettes"
+              class="w-full max-w-md rounded-xl object-cover shadow-lg hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div class="md:w-1/2 flex flex-col justify-center space-y-6">
+            <h2 class="text-4xl md:text-5xl font-extrabold leading-tight">
+              Réparation de
+              <span class="text-black"
+                >Smartphones, Tablettes et Appareils électroniques</span
+              >
+            </h2>
+
+            <p class="text-gray-700 text-lg md:text-xl">
+              Nous réparons vos smartphones, tablettes et appareils
+              électroniques toutes marques : écran cassé, batterie défectueuse,
+              problème de charge, connectivité ou dysfonctionnement logiciel.
+              Chaque réparation est réalisée avec soin par des techniciens
+              expérimentés.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 mt-6">
+              <a
+                href="./pages/services.html"
+                class="bg-black text-white px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition"
+              >
+                Voir nos réparations
+              </a>
+              <a
+                href="/pages/contact.html"
+                class="border border-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-white transition"
+              >
+                Contactez-nous
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION HORAIRES-->
+    <section class="bg-black text-white py-24 overflow-hidden">
+      <div
+        class="max-w-4xl mx-auto px-6 flex flex-col items-center text-center space-y-12"
+      >
+        <h2
+          class="text-4xl md:text-5xl font-extrabold opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Nos Horaires
+        </h2>
+
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 gap-8 w-full max-w-2xl opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div class="flex justify-between border-b border-gray-700 pb-2">
+            <span>Lundi</span>
+            <span>10h00 - 12h30 / 14h00 - 18h30</span>
+          </div>
+
+          <div class="flex justify-between border-b border-gray-700 pb-2">
+            <span>Mardi</span>
+            <span>10h00 - 12h30 / 14h00 - 18h30</span>
+          </div>
+
+          <div class="flex justify-between border-b border-gray-700 pb-2">
+            <span>Mercredi</span>
+            <span>10h00 - 12h30 / 14h00 - 18h30</span>
+          </div>
+
+          <div class="flex justify-between border-b border-gray-700 pb-2">
+            <span>Jeudi</span>
+            <span>10h00 - 12h30 / 14h00 - 18h30</span>
+          </div>
+
+          <div class="flex justify-between border-b border-gray-700 pb-2">
+            <span>Vendredi</span>
+            <span>10h00 - 12h30 / 14h00 - 18h30</span>
+          </div>
+
+          <div class="flex justify-between border-b border-gray-700 pb-2">
+            <span>Samedi</span>
+            <span>Fermé</span>
+          </div>
+
+          <div class="flex justify-between border-b border-gray-700 pb-2">
+            <span>Dimanche</span>
+            <span>Fermé</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS ANIMATION AU SCROLL-->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!-- SECTION MARQUES PRISES EN CHARGE -->
+    <section class="bg-black text-white py-24 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2
+          class="text-4xl md:text-5xl font-extrabold mb-12 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Marques prises en charge
+        </h2>
+
+        <p
+          class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-16 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Nous réparons et entretenons une large gamme de smartphones parmi les
+          marques les plus populaires du marché. Confiez-nous votre appareil en
+          toute confiance.
+        </p>
+
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-12 place-items-center opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://img.icons8.com/ios11/512/FFFFFF/mac-os.png"
+              alt="Apple"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Apple</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://download.logo.wine/logo/Samsung_Electronics/Samsung_Electronics-Logo.wine.png"
+              alt="Samsung"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Samsung</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/500px-Xiaomi_logo_%282021-%29.svg.png"
+              alt="Xiaomi"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Xiaomi</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/256/882/882713.png"
+              alt="Sony"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Sony</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://download.logo.wine/logo/Oppo/Oppo-Logo.wine.png"
+              alt="Oppo"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Oppo</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://logos-world.net/wp-content/uploads/2020/10/Nokia-Logo-1978.png"
+              alt="Nokia"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Nokia</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5969/5969129.png"
+              alt="Huawei"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Huawei</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Wiko_logo.svg/1280px-Wiko_logo.svg.png"
+              alt="Wiko"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Wiko</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://vectorseek.com/wp-content/uploads/2023/10/Huawei-Honor-white-Logo-Vector.svg-.png"
+              alt="Honor"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Honor</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/5969/5969050.png"
+              alt="Asus"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Asus</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/068/764/245/non_2x/oneplus-logo-mobile-company-brand-official-icon-transparent-background-free-png.png"
+              alt="OnePlus"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">OnePlus</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/blackview-1.svg"
+              alt="Blackview"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Blackview</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/068/842/026/non_2x/google-pixel-logo-emblem-icon-transparent-background-free-png.png"
+              alt="Google"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Google</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://www.pikpng.com/pngl/b/555-5552688_realme-is-a-shenzhen-based-chaines-smartphone-manufacturer.png"
+              alt="Realme"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Realme</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Logo_of_the_TCL_Corporation.svg/1280px-Logo_of_the_TCL_Corporation.svg.png"
+              alt="TCL"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">TCL</span>
+          </div>
+
+          <div class="flex flex-col items-center gap-3">
+            <img
+              src="https://download.logo.wine/logo/Vivo_(technology_company)/Vivo_(technology_company)-Logo.wine.png"
+              alt="Vivo"
+              class="h-12 w-auto object-contain"
+            />
+            <span class="text-sm font-semibold">Vivo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS ANIMATION AU SCROLL-->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!-- SECTION QUALIRÉPAR – DESIGN PREMIUM -->
+    <section class="relative bg-black py-28 overflow-hidden">
+      <div class="max-w-6xl mx-auto px-6">
+        <div
+          class="relative bg-gradient-to-br from-gray-100 to-gray-200 rounded-3xl border border-gray-300 p-8 md:p-14 grid grid-cols-1 md:grid-cols-3 gap-12 items-center shadow-2xl opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div class="flex flex-col items-center md:items-start gap-6">
+            <span
+              class="uppercase tracking-widest text-sm font-semibold text-gray-600"
+            >
+              Certification officielle
+            </span>
+
+            <h2
+              class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-black leading-tight"
+            >
+              QUALIRÉPAR
+            </h2>
+
+            <div class="h-1 w-20 bg-black rounded-full"></div>
+
+            <p class="text-gray-700 text-base sm:text-lg">
+              Un label reconnu par l’État qui garantit des réparations fiables,
+              durables et encadrées.
+            </p>
+
+            <div class="mt-4 flex items-center gap-4">
+              <span class="text-4xl sm:text-5xl font-extrabold text-black"
+                >-25€
+              </span>
+              <span class="text-gray-800 font-semibold">
+                Offre valable sous conditions
+              </span>
+            </div>
+          </div>
+
+          <div class="flex justify-center">
+            <img
+              src="./imgheraultphone/logo/qalirepar.jpg"
+              alt="Label QualiRépar"
+              class="w-full max-w-xs rounded-xl shadow-lg hover:scale-105 transition-transform duration-500"
+            />
+          </div>
+
+          <div class="flex flex-col gap-6">
+            <h3 class="text-xl sm:text-2xl font-bold text-black">
+              Nos engagements
+            </h3>
+
+            <ul class="space-y-4 text-gray-700 text-sm sm:text-base">
+              <li class="flex gap-3">
+                <span class="font-bold text-black">•</span>
+                Techniciens qualifiés et certifiés
+              </li>
+
+              <li class="flex gap-3">
+                <span class="font-bold text-black">•</span>
+                Pièces de qualité professionnelle
+              </li>
+
+              <li class="flex gap-3">
+                <span class="font-bold text-black">•</span>
+                Réparations transparentes et durables
+              </li>
+
+              <li class="flex gap-3">
+                <span class="font-bold text-black">•</span>
+                Prise en charge partielle par l’État
+              </li>
+            </ul>
+
+            <p class="text-gray-600 text-sm mt-2">
+              Offre valable sous conditions selon l’éligibilité de votre
+              appareil.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS ANIMATION AU SCROLL -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!-- ECTION ÉCO-RESPONSABILITÉ -->
+    <section class="bg-black py-24 overflow-hidden">
+      <div class="max-w-6xl mx-auto px-6">
+        <div
+          class="bg-gray-100 rounded-2xl px-8 py-16 md:px-16 shadow-xl opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+              Adoptons les bons gestes pour faire durer vos appareils
+            </h2>
+            <p class="text-gray-600 text-lg">
+              Un engagement simple pour votre appareil et pour la planète
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="flex flex-col items-center text-center gap-4">
+              <div class="bg-white rounded-full p-5 shadow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-black"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 2l7 4v6c0 5-3.5 9-7 10-3.5-1-7-5-7-10V6l7-4z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-lg text-gray-900">
+                Protéger votre téléphone
+              </h3>
+              <p class="text-gray-700 text-sm leading-relaxed">
+                Utilisez une coque et un film écran, évitez les chocs,
+                l’humidité et les charges excessives. Ces gestes simples
+                permettent de préserver les performances de votre appareil plus
+                longtemps.
+              </p>
+            </div>
+
+            <div class="flex flex-col items-center text-center gap-4">
+              <div class="bg-white rounded-full p-5 shadow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-black"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8v4l3 3M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2z"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-lg text-gray-900">
+                Faire durer dans le temps
+              </h3>
+              <p class="text-gray-700 text-sm leading-relaxed">
+                Un entretien régulier et une utilisation responsable prolongent
+                la durée de vie de votre téléphone et retardent son
+                remplacement.
+              </p>
+            </div>
+
+            <div class="flex flex-col items-center text-center gap-4">
+              <div class="bg-white rounded-full p-5 shadow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-8 w-8 text-black"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 4v6h6M20 20v-6h-6M9 20l-5-5m11-11l5 5"
+                  />
+                </svg>
+              </div>
+              <h3 class="font-bold text-lg text-gray-900">
+                Recycler plutôt que jeter
+              </h3>
+              <p class="text-gray-700 text-sm leading-relaxed">
+                Lorsque votre téléphone arrive en fin de vie, le recyclage
+                permet de récupérer des matériaux précieux et de réduire
+                l’impact environnemental des déchets électroniques.
+              </p>
+            </div>
+          </div>
+
+          <div class="mt-14 text-center max-w-3xl mx-auto">
+            <p class="text-gray-800 text-base md:text-lg leading-relaxed">
+              👉 Un bac de recyclage est mis à votre disposition dans notre
+              boutique
+              <span class="font-bold">HERAULTPHONE</span> pour déposer vos
+              anciens téléphones et accessoires.
+            </p>
+            <p class="mt-4 text-gray-600 font-semibold">
+              Ensemble, adoptons une démarche responsable pour la planète.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  SECTION POURQUOI NOUS CHOISIR   -->
+    <section class="bg-black text-white py-24 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6">
+        <h2
+          class="text-4xl md:text-5xl font-extrabold text-center mb-16 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Pourquoi nous choisir
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <div
+            class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <div class="flex items-center gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8 text-white flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 19V6h13m0 0v13H9m0-13l-4 4m0 0l4 4m-4-4h18"
+                />
+              </svg>
+              <h3 class="text-2xl font-bold text-white">Réparations rapides</h3>
+            </div>
+            <p class="text-gray-300 text-lg">
+              Avec plus d'une centaine de références de pièces détachées en
+              stock, nous réparons votre appareil le jour même ou sous 24 heures
+              si nécessaire.
+              <span class="font-semibold text-white">QUALIRÉPAR</span> – votre
+              garantie qualité.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <div class="flex items-center gap-3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8 text-white flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M20 13V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6h16zM4 15h16v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-4z"
+                />
+              </svg>
+              <h3 class="text-2xl font-bold text-white">Pièces détachées</h3>
+            </div>
+            <p class="text-gray-300 text-lg">
+              Nous sélectionnons avec soin les meilleures pièces détachées
+              compatibles du marché pour garantir performance et fiabilité. Pour
+              ceux qui recherchent l’authenticité, nous proposons également des
+              pièces d’origine fournies par les fabricants.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <div class="flex items-center gap-3">
+              <!-- Icon service client -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-8 w-8 text-white flex-shrink-0"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M18 10c0 1.1-.9 2-2 2h-4l-4 4v-4H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4z"
+                />
+              </svg>
+              <h3 class="text-2xl font-bold text-white">
+                Service client réactif
+              </h3>
+            </div>
+            <p class="text-gray-300 text-lg">
+              Notre équipe est toujours disponible pour répondre à vos questions
+              et vous offrir un service client irréprochable. Votre satisfaction
+              est notre priorité.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  JS ANIMATION AU SCROLL -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!--  SECTION FAQ / F.A.Q   -->
+    <section class="bg-black py-24 overflow-hidden">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-4xl md:text-5xl font-extrabold text-center mb-16 text-white opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          F.A.Q. – Vos questions fréquentes
+        </h2>
+
+        <div
+          class="bg-gray-100 text-gray-900 rounded-2xl px-6 py-8 sm:px-10 sm:py-12 shadow-xl space-y-6"
+        >
+          <div
+            class="border-b border-gray-300 pb-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <button
+              class="w-full text-left flex justify-between items-center text-gray-900 text-xl font-semibold focus:outline-none faq-btn"
+            >
+              Quels services de réparation offrez-vous ?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 transform transition-transform duration-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </button>
+            <div
+              class="mt-2 text-gray-800 text-lg max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content"
+            >
+              Nous proposons une large gamme de services de réparation pour
+              téléphones mobiles et tablettes, y compris le remplacement
+              d'écran, la réparation de batterie, et bien plus encore.
+            </div>
+          </div>
+
+          <div
+            class="border-b border-gray-300 pb-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <button
+              class="w-full text-left flex justify-between items-center text-gray-900 text-xl font-semibold focus:outline-none faq-btn"
+            >
+              Combien de temps dure une réparation ?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 transform transition-transform duration-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </button>
+            <div
+              class="mt-2 text-gray-800 text-lg max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content"
+            >
+              Le temps de réparation dépend du type de service, mais
+              généralement, les réparations des modèles courants prennent entre
+              45 minutes et 2 heures.
+            </div>
+          </div>
+
+          <div
+            class="border-b border-gray-300 pb-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <button
+              class="w-full text-left flex justify-between items-center text-gray-900 text-xl font-semibold focus:outline-none faq-btn"
+            >
+              Est-ce que mes données personnelles sont en sécurité ?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 transform transition-transform duration-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </button>
+            <div
+              class="mt-2 text-gray-800 text-lg max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content"
+            >
+              Bien sûr, nous prenons la sécurité de vos données très au sérieux.
+              Toutes les informations personnelles et les données contenues dans
+              vos appareils restent strictement confidentielles. Nous appliquons
+              des protocoles de sécurité avancés pour garantir leur protection
+              et nous ne partageons jamais vos données avec des tiers sans votre
+              consentement.
+            </div>
+          </div>
+
+          <div
+            class="border-b border-gray-300 pb-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <button
+              class="w-full text-left flex justify-between items-center text-gray-900 text-xl font-semibold focus:outline-none faq-btn"
+            >
+              Pourquoi choisir HERAULTPHONE ?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 transform transition-transform duration-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </button>
+            <div
+              class="mt-2 text-gray-800 text-lg max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content"
+            >
+              Chez HERAULTPHONE, nous offrons un service rapide, fiable et de
+              qualité. Nos techniciens certifiés prennent soin de chaque
+              appareil avec attention. Nous garantissons toutes nos réparations
+              et proposons une remise de 25€ prise en charge par l'État.
+              Confidentialité garantie pour tous vos appareils !
+            </div>
+          </div>
+
+          <div
+            class="border-b border-gray-300 pb-4 opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <button
+              class="w-full text-left flex justify-between items-center text-gray-900 text-xl font-semibold focus:outline-none faq-btn"
+            >
+              Quels moyens de paiement acceptez-vous ?
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 transform transition-transform duration-300"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 4v16m8-8H4"
+                />
+              </svg>
+            </button>
+            <div
+              class="mt-2 text-gray-800 text-lg max-h-0 overflow-hidden transition-all duration-500 ease-in-out faq-content"
+            >
+              Nous acceptons les paiements en espèces, par carte bancaire, ainsi
+              que les paiements à distance.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS ANIMATION AU SCROLL + ACCORDÉON  -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+
+        const faqButtons = document.querySelectorAll(".faq-btn");
+        faqButtons.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const content = btn.nextElementSibling;
+            const icon = btn.querySelector("svg");
+
+            icon.classList.toggle("rotate-45");
+
+            if (content.style.maxHeight && content.style.maxHeight !== "0px") {
+              content.style.maxHeight = "0";
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            }
+          });
+        });
+      });
+    </script>
+
+    <!--  SECTION NOS SERVICES DE RÉPARATION  -->
+    <section class="bg-black py-24 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2
+          class="text-4xl md:text-5xl font-extrabold mb-12 opacity-0 translate-y-12 transition-all duration-700 text-white"
+          data-animate
+        >
+          Nos Services de Réparation
+        </h2>
+
+        <p
+          class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-16 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Découvrez nos différentes réparations pour smartphones, tablettes et
+          autres appareils.
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div
+            class="flex flex-col items-center bg-gray-100 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition opacity-0 translate-y-12"
+            data-animate
+          >
+            <svg
+              class="h-12 w-12 text-black mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <rect
+                x="3"
+                y="3"
+                width="18"
+                height="18"
+                rx="2"
+                ry="2"
+                stroke-width="2"
+              ></rect>
+              <line x1="3" y1="7" x2="21" y2="7" stroke-width="2"></line>
+            </svg>
+            <h3 class="text-xl font-bold text-black mb-2">Réparation Écran</h3>
+            <p class="text-gray-700 text-sm md:text-base">
+              Nous réparons ou remplaçons l'écran de votre appareil, qu'il
+              s'agisse de fissures, pixels morts ou dysfonctionnements tactiles.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-gray-100 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition opacity-0 translate-y-12"
+            data-animate
+          >
+            <!-- SVG batterie -->
+            <svg
+              class="h-12 w-12 text-black mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <rect
+                x="2"
+                y="7"
+                width="18"
+                height="10"
+                rx="2"
+                ry="2"
+                stroke-width="2"
+              ></rect>
+              <line x1="22" y1="11" x2="22" y2="13" stroke-width="2"></line>
+            </svg>
+            <h3 class="text-xl font-bold text-black mb-2">
+              Remplacement Batterie
+            </h3>
+            <p class="text-gray-700 text-sm md:text-base">
+              Restaurer l'autonomie de votre appareil avec un remplacement de
+              batterie de qualité, garantissant une performance optimale.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-gray-100 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition opacity-0 translate-y-12"
+            data-animate
+          >
+            <svg
+              class="h-12 w-12 text-black mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M5 12h14M12 5l7 7-7 7"
+              ></path>
+            </svg>
+            <h3 class="text-xl font-bold text-black mb-2">
+              Problèmes de Connectivité
+            </h3>
+            <p class="text-gray-700 text-sm md:text-base">
+              Nous intervenons sur vos problèmes de WiFi, Bluetooth ou réseau
+              mobile pour un retour à la normalité.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-gray-100 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition opacity-0 translate-y-12"
+            data-animate
+          >
+            <!-- SVG tablette -->
+            <svg
+              class="h-12 w-12 text-black mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <rect
+                x="3"
+                y="2"
+                width="18"
+                height="20"
+                rx="2"
+                ry="2"
+                stroke-width="2"
+              ></rect>
+              <line x1="12" y1="18" x2="12" y2="18" stroke-width="2"></line>
+            </svg>
+            <h3 class="text-xl font-bold text-black mb-2">
+              Réparation Tablettes
+            </h3>
+            <p class="text-gray-700 text-sm md:text-base">
+              Réparation complète pour tablettes de toutes marques : écran,
+              batterie, connectivité et plus.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-gray-100 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition opacity-0 translate-y-12"
+            data-animate
+          >
+            <svg
+              class="h-12 w-12 text-black mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <rect
+                x="7"
+                y="2"
+                width="10"
+                height="20"
+                rx="2"
+                ry="2"
+                stroke-width="2"
+              ></rect>
+              <line x1="12" y1="18" x2="12" y2="18" stroke-width="2"></line>
+            </svg>
+            <h3 class="text-xl font-bold text-black mb-2">Smartphones</h3>
+            <p class="text-gray-700 text-sm md:text-base">
+              Diagnostic approfondi et réparation de tous types de smartphones,
+              techniques ou physiques.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center bg-gray-100 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition opacity-0 translate-y-12"
+            data-animate
+          >
+            <svg
+              class="h-12 w-12 text-black mb-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 7h16M4 12h16M4 17h16"
+              ></path>
+            </svg>
+            <h3 class="text-xl font-bold text-black mb-2">
+              Autres Réparations
+            </h3>
+            <p class="text-gray-700 text-sm md:text-base">
+              Réparation de composants divers : boutons, haut-parleurs, caméras
+              et autres éléments internes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS ANIMATION AU SCROLL -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!--  SECTION AVANT / APRÈS COMPACT -->
+    <section class="bg-black py-24 overflow-hidden">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2
+          class="text-3xl md:text-4xl font-extrabold mb-10 text-white opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Avant / Après – Nos Réparations
+        </h2>
+
+        <p
+          class="text-gray-300 text-base md:text-lg max-w-2xl mx-auto mb-12 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Découvrez la transformation de nos réparations. Chaque appareil
+          retrouve un état optimal.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div
+            class="bg-gray-100 rounded-xl shadow-lg overflow-hidden opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <div class="relative">
+              <img
+                src="./imgheraultphone/appareilréparé/imgappareil6_.jpg"
+                alt="Avant réparation"
+                class="w-full h-64 object-cover"
+              />
+              <span
+                class="absolute top-3 left-3 bg-white/90 text-black font-bold px-3 py-1 rounded-full text-xs shadow"
+              >
+                AVANT
+              </span>
+            </div>
+            <div class="p-4 text-left">
+              <h3 class="font-bold text-lg mb-1 text-gray-900">
+                État avant réparation
+              </h3>
+              <p class="text-gray-700 text-sm">
+                L’écran était fissuré et le tactile partiellement fonctionnel.
+                La batterie montrait des signes de fatigue.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="bg-gray-100 rounded-xl shadow-lg overflow-hidden opacity-0 translate-y-12 transition-all duration-700"
+            data-animate
+          >
+            <div class="relative">
+              <img
+                src="./imgheraultphone/appareilréparé/imgappareil9_.jpg"
+                alt="Après réparation"
+                class="w-full h-64 object-cover"
+              />
+              <span
+                class="absolute top-3 left-3 bg-white/90 text-black font-bold px-3 py-1 rounded-full text-xs shadow"
+              >
+                APRÈS
+              </span>
+            </div>
+            <div class="p-4 text-left">
+              <h3 class="font-bold text-lg mb-1 text-gray-900">
+                État après réparation
+              </h3>
+              <p class="text-gray-700 text-sm">
+                L’écran a été remplacé par un neuf et la batterie a été
+                optimisée. L’appareil fonctionne comme au premier jour.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <a
+            href="./pages/services.html"
+            class="inline-block bg-white text-black px-10 py-4 rounded-md font-semibold hover:bg-gray-200 transition"
+          >
+            Voir nos réparations
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+    <!-- <script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-15038965-90ba-409a-a49d-e8171027e389" data-elfsight-app-lazy></div>
+
+
+ -->
+
+    <section class="bg-black py-24 overflow-hidden">
+      <div class="max-w-7xl mx-auto px-6 text-center">
+        <h2
+          class="text-4xl md:text-5xl font-extrabold text-white mb-6 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Avis de nos clients
+        </h2>
+
+        <p
+          class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-16 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Découvrez les retours de nos clients suite à leurs réparations chez
+          Herault Phone. Transparence, qualité et satisfaction sont au cœur de
+          notre engagement.
+        </p>
+
+        <div
+          class="relative bg-gray-200 text-black rounded-2xl p-6 md:p-10 shadow-2xl opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div
+            class="absolute -top-3 left-1/2 -translate-x-1/2 bg-white text-black text-sm font-semibold px-4 py-1 rounded-full shadow"
+          >
+            Avis Google
+          </div>
+
+          <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+          <script src="https://elfsightcdn.com/platform.js" async></script>
+          <div
+            class="elfsight-app-15038965-90ba-409a-a49d-e8171027e389"
+            data-elfsight-app-lazy
+          ></div>
+
+          <div class="mt-10 flex justify-center">
+            <a
+              href="https://www.google.com/maps/place//data=!4m3!3m2!1s0x12b10e6737b339e7:0x1a2f28f83dfa2a7f!12e1?source=g.page.m.nr._&laa=nmx-review-solicitation-recommendation-card"
+              target="_blank"
+              rel="noopener"
+              class="inline-flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full text-base md:text-lg font-semibold transition-all duration-300 hover:bg-white hover:text-black border border-black"
+            >
+              Publiez Un Avis 😊
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M14 3l7 9-7 9v-6H3v-6h11V3z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!-- SECTION OÙ NOUS TROUVER + CARTE   -->
+    <section class="bg-black text-white py-24 overflow-hidden">
+      <div
+        class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16"
+      >
+        <div
+          class="md:w-1/2 opacity-0 transform translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.273281372596!2d0!3d0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b10e6737b339e7%3A0x1a2f28f83dfa2a7f!2sHERAULTPHONE%20-%20R%C3%A9paration%20iPhone%20B%C3%A9ziers%20smartphones%20tablettes%20Samsung%20Xiaomi%20Huawei!5e0!3m2!1sfr!2sfr!4v1768485416292!5m2!1sfr!2sfr"
+            class="w-full h-80 md:h-[450px] rounded-xl shadow-lg border-0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+
+        <div
+          class="md:w-1/2 flex flex-col justify-center space-y-6 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h2 class="text-4xl md:text-5xl font-extrabold">
+            📍 Retrouvez-nous à Béziers
+          </h2>
+
+          <p class="text-gray-300 text-lg md:text-xl font-semibold">
+            Notre boutique HERAULTPHONE est idéalement située au cœur de
+            Béziers, à l’adresse suivante : 69 Av. 22 Août 1944, 34500 Béziers.
+          </p>
+
+          <p class="text-gray-300 text-lg md:text-xl">
+            Nous vous accueillons dans un espace moderne et sécurisé pour toutes
+            vos réparations de smartphones, tablettes et accessoires. Notre
+            équipe de techniciens qualifiés vous garantit un service rapide,
+            fiable et transparent.
+          </p>
+
+          <p class="text-gray-300 text-lg md:text-xl">
+            Facile d’accès, notre boutique se trouve en face de la pharmacie des
+            Arènes et à proximité de l’Avenue Saint-Saëns, pour vous offrir une
+            expérience pratique et confortable lors de votre visite.
+          </p>
+
+          <a
+            href="https://www.google.com/maps/place/HERAULTPHONE+-+R%C3%A9paration+iPhone+B%C3%A9ziers+smartphones+tablettes+Samsung+Xiaomi+Huawei/@0,0,15z/data=!4m6!3m5!1s0x12b10e6737b339e7:0x1a2f28f83dfa2a7f!8m2!3d43.3433731!4d3.2236495!16s%2Fg%2F11cn8t6kkw?entry=tts&g_ep=EgoyMDI1MDMwNC4wIPu8ASoASAFQAw%3D%3D"
+            target="_blank"
+            class="mt-4 inline-block bg-white text-black px-6 py-3 rounded-md font-semibold hover:bg-gray-200 transition"
+          >
+            Voir sur Google Maps
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!--  FOOTER -->
+    <footer class="bg-black text-white py-16">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12"
+      >
+        <div
+          class="flex flex-col items-start gap-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div class="flex items-center gap-3">
+            <img
+              src="./imgheraultphone/logo/LogoHerault.jpg"
+              alt="Logo Herault Phone"
+              class="h-10 w-10 object-contain"
+            />
+            <span class="font-bold text-lg">HERAULTPHONE</span>
+          </div>
+          <p class="text-gray-300 text-sm md:text-base">
+            Réparation Smartphone et Tablette
+          </p>
+
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href="https://www.instagram.com/heraultphone/"
+              class="hover:opacity-70 transition"
+              aria-label="Instagram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 fill-current"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.679 3.5 4 5.179 4 7.25v8.5C4 18.321 5.679 20 7.75 20h8.5C18.321 20 20 18.321 20 16.25v-8.5C20 5.679 18.321 3.5 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"
+                />
+              </svg>
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@heraultphone?_t=ZN-8uZT7bnszjz&_r=1"
+              aria-label="TikTok"
+              class="hover:opacity-70 transition"
+            >
+              <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                <path
+                  d="M21 8.1c-1.5 0-2.9-.5-4-1.4V16c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6v3.1c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V2h3c.3 2.2 2.1 3.9 4.3 4.1v2z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://wa.me/33642203142"
+              aria-label="WhatsApp"
+              class="hover:opacity-70 transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 fill-current"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20.52 3.48A11.88 11.88 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.12.554 4.098 1.608 5.837L0 24l6.347-1.616A11.964 11.964 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.204-1.254-6.215-3.48-8.52zm-8.52 18.52c-2.08 0-4.036-.624-5.64-1.69l-.404-.24-3.77.957.99-3.73-.262-.41A10.935 10.935 0 0 1 1 12c0-6.075 4.925-11 11-11s11 4.925 11 11-4.925 11-11 11zm5.36-7.69c-.148-.247-.543-.395-1.14-.693-.596-.297-1.44-.73-1.666-.815-.222-.086-.384-.127-.544.127-.157.252-.607.815-.744.983-.137.167-.275.188-.51.063-.235-.125-1.004-.368-1.914-1.178-.71-.63-1.188-1.407-1.328-1.642-.137-.235-.014-.362.1-.479.102-.104.226-.27.34-.406.113-.137.15-.23.225-.383.075-.153.037-.285.018-.403-.02-.118-.558-1.345-.764-1.84-.205-.495-.397-.428-.544-.428h-.438c-.145 0-.353.056-.508.273-.154.217-.59.707-.59 1.723 0 1.016.88 2.245.995 2.396.116.152 1.79 2.436 4.326 3.618.608.263 1.08.415 1.445.532.607.187 1.162.15 1.605.088.492-.07 1.543-.594 1.762-1.153.22-.559.22-1.043.158-1.153z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h3 class="font-bold text-xl">Navigation</h3>
+          <a
+            href="./index.html"
+            class="text-gray-300 hover:text-white transition"
+            >Accueil</a
+          >
+          <a
+            href="./pages/services.html"
+            class="text-gray-300 hover:text-white transition"
+            >Services</a
+          >
+          <a
+            href="./pages/apropos.html"
+            class="text-gray-300 hover:text-white transition"
+            >À propos</a
+          >
+          <a
+            href="./pages/contact.html"
+            class="text-gray-300 hover:text-white transition"
+            >Contact</a
+          >
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h3 class="font-bold text-xl">Nos boutiques</h3>
+          <p class="text-gray-300">69 avenue 22 Août 1944, 34500 Béziers</p>
+          <p class="text-gray-300">Horaires :</p>
+          <p class="text-gray-300">
+            Lundi - Vendredi : 10h00–12h30 / 14h00–18h30
+          </p>
+          <p class="text-gray-300">Samedi & Dimanche : Fermé</p>
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h3 class="font-bold text-xl">Nous contacter</h3>
+          <a
+            href="mailto:heraultphone@hotmail.com"
+            class="text-gray-200 hover:text-white transition"
+          >
+            heraultphone@hotmail.com
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="mt-12 border-t border-gray-800 pt-6 text-center text-gray-500 text-sm space-y-3"
+      >
+        <div class="flex flex-wrap justify-center gap-6">
+          <a
+            href="./pages/politiquedeconfidentialité.html"
+            class="hover:text-white transition"
+          >
+            Politique de confidentialité
+          </a>
+          <a href="./pages/condition.html" class="hover:text-white transition">
+            Conditions générales
+          </a>
+          <a
+            href="./pages/mentionlégales.html"
+            class="hover:text-white transition"
+          >
+            Mentions légales
+          </a>
+        </div>
+
+        <p>&copy; 2026 HERAULTPHONE — Tous droits réservés</p>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+  </body>
+</html>

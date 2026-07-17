@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HERAULTPHONE - Réparation iPhone Béziers smartphones tablettes Samsung Xiaomi Huawei</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      href="/imgheraultphone/logo/logoherault.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/magic-ui@latest/dist/magic-ui.min.css"
+    />
+    <script src="https://unpkg.com/magic-ui@latest/dist/magic-ui.min.js"></script>
+  </head>
+
+  <body class="font-['DM_Sans'] bg-black text-white">
+    <!--  HEADER  -->
+    <header class="w-full bg-black border-b border-gray-800 fixed top-0 z-40">
+      <div class="max-w-7xl mx-auto px-4">
+        <div class="flex items-center justify-between h-16">
+          <a href="../index.html" class="flex items-center gap-3">
+            <img
+              src="../imgheraultphone/logo/logoherault.jpg"
+              alt="Logo Herault Phone"
+              class="h-9 w-9 object-contain"
+            />
+            <span class="text-lg font-semibold tracking-wide text-white">
+              HERAULTPHONE
+            </span>
+          </a>
+
+          <nav
+            class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300"
+          >
+            <a href="../index.html" class="hover:text-white transition"
+              >Accueil</a
+            >
+            <a href="./services.html" class="hover:text-white transition"
+              >Services</a
+            >
+            <a href="./apropos.html" class="hover:text-white transition"
+              >À propos</a
+            >
+
+            <div class="flex items-center gap-4">
+              <a
+                href="./contact.html"
+                class="bg-white text-black px-4 py-2 rounded-md font-semibold hover:bg-gray-200 transition"
+              >
+                Contacter
+              </a>
+
+              <a
+                href="https://www.instagram.com/heraultphone/"
+                class="hover:opacity-70 transition"
+                aria-label="Instagram"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.679 3.5 4 5.179 4 7.25v8.5C4 18.321 5.679 20 7.75 20h8.5C18.321 20 20 18.321 20 16.25v-8.5C20 5.679 18.321 3.5 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://www.tiktok.com/@heraultphone?_t=ZN-8uZT7bnszjz&_r=1"
+                class="hover:opacity-70 transition"
+                aria-label="TikTok"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M21 8.1c-1.5 0-2.9-.5-4-1.4V16c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6v3.1c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V2h3c.3 2.2 2.1 3.9 4.3 4.1v2z"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="https://wa.me/33642203142"
+                aria-label="WhatsApp"
+                class="hover:opacity-70 transition"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6 fill-current"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20.52 3.48A11.88 11.88 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.12.554 4.098 1.608 5.837L0 24l6.347-1.616A11.964 11.964 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.204-1.254-6.215-3.48-8.52zm-8.52 18.52c-2.08 0-4.036-.624-5.64-1.69l-.404-.24-3.77.957.99-3.73-.262-.41A10.935 10.935 0 0 1 1 12c0-6.075 4.925-11 11-11s11 4.925 11 11-4.925 11-11 11zm5.36-7.69c-.148-.247-.543-.395-1.14-.693-.596-.297-1.44-.73-1.666-.815-.222-.086-.384-.127-.544.127-.157.252-.607.815-.744.983-.137.167-.275.188-.51.063-.235-.125-1.004-.368-1.914-1.178-.71-.63-1.188-1.407-1.328-1.642-.137-.235-.014-.362.1-.479.102-.104.226-.27.34-.406.113-.137.15-.23.225-.383.075-.153.037-.285.018-.403-.02-.118-.558-1.345-.764-1.84-.205-.495-.397-.428-.544-.428h-.438c-.145 0-.353.056-.508.273-.154.217-.59.707-.59 1.723 0 1.016.88 2.245.995 2.396.116.152 1.79 2.436 4.326 3.618.608.263 1.08.415 1.445.532.607.187 1.162.15 1.605.088.492-.07 1.543-.594 1.762-1.153.22-.559.22-1.043.158-1.153z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </nav>
+
+          <button
+            id="open-menu"
+            class="md:hidden text-white transition-transform duration-300 hover:scale-110"
+          >
+            <svg
+              class="h-7 w-7"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!--  MENU MOBILE  -->
+    <div
+      id="mobile-menu"
+      class="fixed inset-0 bg-black z-50 flex flex-col items-center justify-center gap-8 text-lg font-semibold text-white opacity-0 pointer-events-none transition-all duration-500 ease-out translate-y-6 scale-95"
+    >
+      <a href="../index.html" class="hover:opacity-70 transition">Accueil</a>
+      <a href="./services.html" class="hover:opacity-70 transition">Services</a>
+      <a href="./apropos.html" class="hover:opacity-70 transition">À propos</a>
+
+      <a
+        href="./contact.html"
+        class="bg-white text-black px-6 py-3 rounded-md font-semibold"
+      >
+        Contacter
+      </a>
+
+      <div class="flex items-center gap-6 pt-6">
+        <a
+          href="https://www.instagram.com/heraultphone/"
+          class="hover:opacity-70 transition"
+          aria-label="Instagram"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 fill-current"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.679 3.5 4 5.179 4 7.25v8.5C4 18.321 5.679 20 7.75 20h8.5C18.321 20 20 18.321 20 16.25v-8.5C20 5.679 18.321 3.5 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"
+            />
+          </svg>
+        </a>
+
+        <a
+          href="https://www.tiktok.com/@heraultphone?_t=ZN-8uZT7bnszjz&_r=1"
+          class="hover:opacity-70 transition"
+        >
+          <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+            <path
+              d="M21 8.1c-1.5 0-2.9-.5-4-1.4V16c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6v3.1c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V2h3c.3 2.2 2.1 3.9 4.3 4.1v2z"
+            />
+          </svg>
+        </a>
+
+        <a
+          href="https://wa.me/33642203142"
+          aria-label="WhatsApp"
+          class="hover:opacity-70 transition"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6 fill-current"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20.52 3.48A11.88 11.88 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.12.554 4.098 1.608 5.837L0 24l6.347-1.616A11.964 11.964 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.204-1.254-6.215-3.48-8.52zm-8.52 18.52c-2.08 0-4.036-.624-5.64-1.69l-.404-.24-3.77.957.99-3.73-.262-.41A10.935 10.935 0 0 1 1 12c0-6.075 4.925-11 11-11s11 4.925 11 11-4.925 11-11 11zm5.36-7.69c-.148-.247-.543-.395-1.14-.693-.596-.297-1.44-.73-1.666-.815-.222-.086-.384-.127-.544.127-.157.252-.607.815-.744.983-.137.167-.275.188-.51.063-.235-.125-1.004-.368-1.914-1.178-.71-.63-1.188-1.407-1.328-1.642-.137-.235-.014-.362.1-.479.102-.104.226-.27.34-.406.113-.137.15-.23.225-.383.075-.153.037-.285.018-.403-.02-.118-.558-1.345-.764-1.84-.205-.495-.397-.428-.544-.428h-.438c-.145 0-.353.056-.508.273-.154.217-.59.707-.59 1.723 0 1.016.88 2.245.995 2.396.116.152 1.79 2.436 4.326 3.618.608.263 1.08.415 1.445.532.607.187 1.162.15 1.605.088.492-.07 1.543-.594 1.762-1.153.22-.559.22-1.043.158-1.153z"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <button id="close-menu" class="absolute top-6 right-6">
+        <svg
+          class="h-8 w-8"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <script>
+      const openMenu = document.getElementById("open-menu");
+      const closeMenu = document.getElementById("close-menu");
+      const mobileMenu = document.getElementById("mobile-menu");
+
+      openMenu.addEventListener("click", () => {
+        mobileMenu.classList.remove(
+          "opacity-0",
+          "pointer-events-none",
+          "translate-y-6",
+          "scale-95",
+        );
+        mobileMenu.classList.add(
+          "opacity-100",
+          "pointer-events-auto",
+          "translate-y-0",
+          "scale-100",
+        );
+        document.body.style.overflow = "hidden";
+      });
+
+      closeMenu.addEventListener("click", () => {
+        mobileMenu.classList.add(
+          "opacity-0",
+          "pointer-events-none",
+          "translate-y-6",
+          "scale-95",
+        );
+        mobileMenu.classList.remove(
+          "opacity-100",
+          "pointer-events-auto",
+          "translate-y-0",
+          "scale-100",
+        );
+        document.body.style.overflow = "";
+      });
+    </script>
+
+    <!--  SECTION CONDITIONS GÉNÉRALES  -->
+    <section class="bg-black text-white py-24 overflow-hidden">
+      <div class="max-w-5xl mx-auto px-6 space-y-8">
+        <h2
+          class="text-4xl md:text-5xl font-extrabold text-center opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          Conditions Générales des Réparations HERAULTPHONE
+        </h2>
+
+        <div
+          class="space-y-6 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h3 class="text-2xl font-bold">1. Objet</h3>
+          <p class="text-gray-300 text-lg">
+            Les présentes conditions générales ont pour objet de définir les
+            modalités de réparation des téléphones mobiles et autres appareils
+            électroniques confiés à l'entreprise HERAULTPHONE.
+          </p>
+
+          <h3 class="text-2xl font-bold">2. Devis</h3>
+          <p class="text-gray-300 text-lg">
+            Avant toute réparation, un devis sera établi par nos techniciens. Ce
+            devis précisera le coût de la réparation ainsi que les pièces à
+            remplacer si nécessaire. Le client devra accepter ce devis avant que
+            les travaux ne soient effectués.
+          </p>
+
+          <h3 class="text-2xl font-bold">
+            3. Délais et qualité des réparations
+          </h3>
+          <p class="text-gray-300 text-lg">
+            Les réparations seront effectuées dans les meilleurs délais par nos
+            techniciens qualifiés. Nous nous engageons à utiliser des pièces de
+            qualité et à respecter les normes en vigueur.
+          </p>
+
+          <h3 class="text-2xl font-bold">4. Garantie</h3>
+          <p class="text-gray-300 text-lg">
+            Toutes nos réparations sont garanties pendant une période de 6 mois
+            à compter de la date de restitution de l'appareil au client. Cette
+            garantie couvre les pièces remplacées ainsi que la main d'œuvre.
+          </p>
+
+          <h3 class="text-2xl font-bold">5. Responsabilité</h3>
+          <p class="text-gray-300 text-lg">
+            L'entreprise HERAULTPHONE décline toute responsabilité en cas de
+            perte de données ou de dommages causés par un mauvais usage de
+            l'appareil réparé. Le client est tenu de sauvegarder ses données
+            avant de confier son appareil à nos techniciens.
+          </p>
+
+          <h3 class="text-2xl font-bold">6. Paiement</h3>
+          <p class="text-gray-300 text-lg">
+            Le règlement des réparations s'effectue à la restitution de
+            l'appareil. Un acompte pourra être demandé avant d'entamer les
+            réparations. Les paiements peuvent être effectués en espèces ou par
+            carte bancaire.
+          </p>
+
+          <h3 class="text-2xl font-bold">7. Acceptation des conditions</h3>
+          <p class="text-gray-300 text-lg">
+            En acceptant les présentes conditions générales, le client reconnaît
+            avoir pris connaissance et accepté l'ensemble des modalités des
+            réparations proposées par l'entreprise.
+          </p>
+
+          <h3 class="text-2xl font-bold">8. Médiation</h3>
+          <p class="text-gray-300 text-lg">
+            En cas de litige, si la réclamation écrite auprès du magasin n’a pas
+            permis de régler le différend, le consommateur peut saisir
+            gratuitement un médiateur compétent. Il peut utiliser la plateforme
+            mise en ligne par la Commission européenne pour soumettre sa
+            réclamation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+
+    <!--  FOOTER  -->
+    <footer class="bg-black text-white py-16">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12"
+      >
+        <div
+          class="flex flex-col items-start gap-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <div class="flex items-center gap-3">
+            <img
+              src="../imgheraultphone/logo/LogoHerault.jpg"
+              alt="Logo Herault Phone"
+              class="h-10 w-10 object-contain"
+            />
+            <span class="font-bold text-lg">HERAULTPHONE</span>
+          </div>
+          <p class="text-gray-300 text-sm md:text-base">
+            Réparation Smartphone et Tablette
+          </p>
+
+          <div class="flex items-center gap-4 mt-4">
+            <a
+              href="https://www.instagram.com/heraultphone/"
+              class="hover:opacity-70 transition"
+              aria-label="Instagram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5 fill-current"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.679 3.5 4 5.179 4 7.25v8.5C4 18.321 5.679 20 7.75 20h8.5C18.321 20 20 18.321 20 16.25v-8.5C20 5.679 18.321 3.5 16.25 3.5h-8.5zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm5.25-.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"
+                />
+              </svg>
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@heraultphone?_t=ZN-8uZT7bnszjz&_r=1"
+              aria-label="TikTok"
+              class="hover:opacity-70 transition"
+            >
+              <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                <path
+                  d="M21 8.1c-1.5 0-2.9-.5-4-1.4V16c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6v3.1c-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V2h3c.3 2.2 2.1 3.9 4.3 4.1v2z"
+                />
+              </svg>
+            </a>
+
+            <a
+              href="https://wa.me/33642203142"
+              aria-label="WhatsApp"
+              class="hover:opacity-70 transition"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6 fill-current"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20.52 3.48A11.88 11.88 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.12.554 4.098 1.608 5.837L0 24l6.347-1.616A11.964 11.964 0 0 0 12 24c6.627 0 12-5.373 12-12 0-3.204-1.254-6.215-3.48-8.52zm-8.52 18.52c-2.08 0-4.036-.624-5.64-1.69l-.404-.24-3.77.957.99-3.73-.262-.41A10.935 10.935 0 0 1 1 12c0-6.075 4.925-11 11-11s11 4.925 11 11-4.925 11-11 11zm5.36-7.69c-.148-.247-.543-.395-1.14-.693-.596-.297-1.44-.73-1.666-.815-.222-.086-.384-.127-.544.127-.157.252-.607.815-.744.983-.137.167-.275.188-.51.063-.235-.125-1.004-.368-1.914-1.178-.71-.63-1.188-1.407-1.328-1.642-.137-.235-.014-.362.1-.479.102-.104.226-.27.34-.406.113-.137.15-.23.225-.383.075-.153.037-.285.018-.403-.02-.118-.558-1.345-.764-1.84-.205-.495-.397-.428-.544-.428h-.438c-.145 0-.353.056-.508.273-.154.217-.59.707-.59 1.723 0 1.016.88 2.245.995 2.396.116.152 1.79 2.436 4.326 3.618.608.263 1.08.415 1.445.532.607.187 1.162.15 1.605.088.492-.07 1.543-.594 1.762-1.153.22-.559.22-1.043.158-1.153z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h3 class="font-bold text-xl">Navigation</h3>
+          <a
+            href="../index.html"
+            class="text-gray-300 hover:text-white transition"
+            >Accueil</a
+          >
+          <a
+            href="./services.html"
+            class="text-gray-300 hover:text-white transition"
+            >Services</a
+          >
+          <a
+            href="./apropos.html"
+            class="text-gray-300 hover:text-white transition"
+            >À propos</a
+          >
+          <a
+            href="./contact.html"
+            class="text-gray-300 hover:text-white transition"
+            >Contact</a
+          >
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h3 class="font-bold text-xl">Nos boutiques</h3>
+          <p class="text-gray-300">69 avenue 22 Août 1944, 34500 Béziers</p>
+          <p class="text-gray-300">Horaires :</p>
+          <p class="text-gray-300">
+            Lundi - Vendredi : 10h00–12h30 / 14h00–18h30
+          </p>
+          <p class="text-gray-300">Samedi & Dimanche : Fermé</p>
+        </div>
+
+        <div
+          class="flex flex-col space-y-4 opacity-0 translate-y-12 transition-all duration-700"
+          data-animate
+        >
+          <h3 class="font-bold text-xl">Nous contacter</h3>
+          <a
+            href="mailto:heraultphone@hotmail.com"
+            class="text-gray-200 hover:text-white transition"
+          >
+            heraultphone@hotmail.com
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="mt-12 border-t border-gray-800 pt-6 text-center text-gray-500 text-sm space-y-3"
+      >
+        <div class="flex flex-wrap justify-center gap-6">
+          <a
+            href="./politiquedeconfidentialité.html"
+            class="hover:text-white transition"
+          >
+            Politique de confidentialité
+          </a>
+          <a href="./condition.html" class="hover:text-white transition">
+            Conditions générales
+          </a>
+          <a href="./mentionlégales.html" class="hover:text-white transition">
+            Mentions légales
+          </a>
+        </div>
+
+        <p>&copy; 2026 HERAULTPHONE — Tous droits réservés</p>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const animatedElements = document.querySelectorAll("[data-animate]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                entry.target.classList.remove("opacity-0", "translate-y-12");
+                entry.target.classList.add("opacity-100", "translate-y-0");
+              }
+            });
+          },
+          { threshold: 0.3 },
+        );
+        animatedElements.forEach((el) => observer.observe(el));
+      });
+    </script>
+  </body>
+</html>
