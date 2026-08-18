@@ -1,4 +1,4 @@
-# Entreprise
+# HERAULTPHONE
 
 ### Description
 Site vitrine développé pour HERAULTPHONE, spécialiste de la réparation de smartphones et tablettes à Béziers. Ce projet, réalisé pour mon premier client, présente les différents services de réparation, les réalisations avant/après, les marques prises en charge ainsi que les informations de la boutique.
