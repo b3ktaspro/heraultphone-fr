@@ -8,8 +8,8 @@ Site vitrine développé pour HERAULTPHONE, spécialiste de la réparation de sm
 ### Aperçu web
 
 <p align="center">
-  <img src="./.github/assets/heraultphonewebreadme.png" width="50%">
-  <img src="./.github/assets/heraultphonewebreadme2.png" width="48%">
+  <img src="./.github/assets/readmeweb.png" width="50%">
+  <img src="./.github/assets/readmeweb2.png" width="48%">
 </p>
 
 ### Fonctionnalités
@@ -30,7 +30,7 @@ Site vitrine développé pour HERAULTPHONE, spécialiste de la réparation de sm
 ### Aperçu mobile
 
 <p align="center">
-  <img src="./.github/assets/heraultphonemobile.png" width="31%">
-  <img src="./.github/assets/heraultphonemobile2.png" width="30%">
+  <img src="./.github/assets/readmemobile.png" width="31%">
+  <img src="./.github/assets/readmemobile2.png" width="30%">
   
 </p>
